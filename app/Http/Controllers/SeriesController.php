@@ -12,7 +12,8 @@ class SeriesController extends Controller
             'Oi sua fera no laravel',
             'Me sinto insegura com php',
             'Estou me desafiando',
-            'bla bla bla'
+            'bla bla bla',
+            'Vou conseguir te libertar' 
         ];
 
         return view ('series.index', compact ('series'));
