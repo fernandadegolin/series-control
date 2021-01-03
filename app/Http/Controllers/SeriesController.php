@@ -13,7 +13,8 @@ class SeriesController extends Controller
             'Me sinto insegura com php',
             'Estou me desafiando',
             'bla bla bla',
-            'Vou conseguir te libertar' 
+            'Vou conseguir te libertar' ,
+            'Vc nao será mais uma prisioneira'
         ];
 
         return view ('series.index', compact ('series'));
