@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get('/series', [ 
     'uses' => 'SeriesController@index',
 ]);
+
+Route::get ('/series/create', [                      //nome da url
+    'uses' => 'SeriesController@create',             //nome do controler @ nome da function
+]);
+
