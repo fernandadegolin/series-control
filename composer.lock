@@ -30,7 +30,7 @@
             "autoload": {
                 "psr-4": {
                     "XdgBaseDir\\": "src/"
-                }
+                } 
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
